@@ -1,0 +1,83 @@
+/* ====================
+   Media Queries
+   ==================== */
+@media(min-width:768px){
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+
+  a{
+    font-size: 16px;
+  }
+
+  .nav-menu{
+    position: fixed;
+    top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+overflow-y: ;    gap: 70px;
+    background: #b0bbaf;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px;
+  }
+
+  .hero{
+    background: #929E90 url("/img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about-me-text{
+    max-width: 30em;
+  }
+
+  .project-gif{
+    max-width: 45em;
+  }
+
+  .project-text{
+    max-width: 30em;
+  }
+
+  form{
+    max-width: 150%;
+    margin: 20px auto;
+  }
+
+
+}
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
